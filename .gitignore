@@ -1,0 +1,16 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.idea/
+*.iml
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+config.properties
