@@ -1,7 +1,21 @@
-.
-├── pom.xml
-├── README.md
-└── src
-    └── test
-        └── java
-            └── LoginTest.java
+project-name/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── utils/              
+│   │
+│   └── test/
+│       └── java/
+│           ├── base/                
+│           ├── pages/              
+│           │   ├── LoginPage.java
+│           │   ├── HomePage.java
+│           │   └── SearchPage.java
+│           ├── tests/              
+│           │   └── LoginTest.java
+│           └── data/               
+│
+├── testng.xml                       
+├── pom.xml                         
+└── README.md
+
