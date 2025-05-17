@@ -17,7 +17,7 @@ By passwordField = By.Id("");
 ByloginButton = By.Id("");
 
 //methods
-public void enterUsername(String Username){ drver.findElementg(usernameField).sendKeys("");
+public void enterUsername(String Username){ drver.findElement(usernameField).sendKeys("");
   }
 public void enterpassword(String password){driver.findElement(passwordField).sendKeys("");
    }
